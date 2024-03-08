@@ -10,4 +10,5 @@ public interface BookingService {
 	public List<HistoryBean> getAllBookingsByCustomerId(String customerEmailId) throws TrainException;
 
 	public HistoryBean createHistory(HistoryBean bookingDetails) throws TrainException;
+	
 }
