@@ -14,6 +14,15 @@ public class UserBean implements Serializable {
 	private String addR;
 	private String mailId;
 	private long phNo;
+	private String otp;
+
+	public String getOtp() {
+		return otp;
+	}
+
+	public void setOtp(String otp) {
+		this.otp = otp;
+	}
 
 	public void setPWord(String pWord) {
 		this.pWord = pWord;
